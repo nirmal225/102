@@ -1,0 +1,68 @@
+.app-container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+.form {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #202020;
+  padding: 40px;
+  border-radius: 20px;
+  min-width: 450px;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .form {
+    width: 50%;
+  }
+}
+
+.website-logo {
+  width: 200px;
+  height: 67px;
+  margin-bottom: 45px;
+}
+
+.input-label {
+  align-self: flex-start;
+  font-size: 16px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  margin-bottom: 10px;
+}
+
+.input-field {
+  width: 100%;
+  border: 1px solid #6366f1;
+  height: 50px;
+  padding: 8px 0 8px 20px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-size: 17px;
+  background-color: transparent;
+  border-radius: 4px;
+  margin-bottom: 30px;
+}
+
+.button {
+  width: 80%;
+  padding: 10px 0 10px 0;
+  background-color: #6366f1;
+  border-radius: 6px;
+  color: #ffffff;
+  font-size: 17px;
+  cursor: pointer;
+}
+
+.message {
+  color: #ff0b37;
+  align-self: flex-start;
+  font-size: 12px;
+}

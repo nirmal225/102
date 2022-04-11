@@ -1,0 +1,32 @@
+* {
+  color: #ffffff;
+  font-family: 'Roboto';
+}
+
+.failure-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+  height: 100vh;
+  width: 100vw;
+}
+
+.not-found-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 91vh;
+}
+
+.failure-view {
+  width: 350px;
+  height: 350px;
+}
+
+@media screen and (min-width: 768px) {
+  .failure-view {
+    width: 500px;
+    height: 500px;
+  }
+}

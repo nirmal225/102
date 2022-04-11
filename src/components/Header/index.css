@@ -1,0 +1,96 @@
+.nav-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+}
+
+.nav-details-container {
+  display: flex;
+  align-items: center;
+  background-color: #202020;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 30px 15px 30px;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-details-container {
+    width: 90%;
+    max-width: 1140px;
+  }
+}
+
+.logo {
+  width: 145px;
+  height: 48x;
+}
+
+.nav-desktop {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-desktop {
+    width: 52%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+}
+
+.nav-mobile {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+@media screen and (min-width: 768px) {
+  .nav-mobile {
+    display: none;
+  }
+}
+
+.links-container {
+  display: flex;
+  align-items: center;
+  padding-left: 0;
+  list-style-type: none;
+}
+
+.home-link {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 15px;
+  font-weight: 500;
+}
+
+.font {
+  color: #ffffff;
+  margin-left: 20px;
+  cursor: pointer;
+}
+.nav-link {
+  text-decoration: none;
+}
+
+.jobs-link {
+  color: #ffffff;
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.logout-button {
+  margin-top: 0;
+  background-color: #4f46e5;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  padding: 9px 40px 9px 40px;
+  border-radius: 5px;
+  color: #ffffff;
+  font-size: 13px;
+  font-weight: 600;
+}

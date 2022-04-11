@@ -1,0 +1,28 @@
+.type-of-range-container {
+  display: flex;
+  padding: 20px;
+  flex-direction: column;
+}
+
+.type-of-employment {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+.salary-ranger-list-container {
+  display: flex;
+  flex-direction: column;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.salary-list-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+  font-size: 18px;
+}
+
+.label {
+  padding-left: 15px;
+}
